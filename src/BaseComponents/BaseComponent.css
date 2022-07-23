@@ -1,0 +1,28 @@
+.navbar a {
+    margin: 0px 1rem;
+}
+
+.brand {
+    font-family: var(--font-Acme);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.copyrightText {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyrightText p {
+    margin: 0;
+    text-align: center;
+}
+
+.copyrightText a {
+    text-decoration: none;
+    font-family: var(--font-Acme);
+}
