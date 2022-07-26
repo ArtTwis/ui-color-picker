@@ -31,7 +31,6 @@ const MainContent = () => {
 
     getContrastRatio(backgroundColor, foregroundColor)
       .then((data) => {
-        console.log('🚀data :', data);
         if (data.ratio) {
           setContrastRatio(data.ratio);
           setAA(data.AA);
