@@ -73,3 +73,17 @@ header h3 {
     font-size: 1.5rem;
     font-family: var(--font-Quicksand-Bold);
 }
+
+.copied-element-parent-dv {
+    display: flex;
+    flex-direction: row;
+}
+
+.copied-element-parent-dv .copiedElementTxt {
+    font-family: var(--font-Quicksand-Bold);
+    margin: 0;
+    margin-right: 5px;
+}
+
+.copied-element-parent-dv .copiedIcon {
+}

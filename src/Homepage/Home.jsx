@@ -9,7 +9,13 @@ const Home = () => {
         <Base>
             <Header />
             {SolidColor.map((color, index) => {
-                return <SolidColorShades colorname={color} index={index} />;
+                return (
+                    <SolidColorShades
+                        colorname={color}
+                        index={index}
+                        key={color + '-' + index}
+                    />
+                );
             })}
         </Base>
     );

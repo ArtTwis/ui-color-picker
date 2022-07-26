@@ -1,20 +1,26 @@
 @font-face {
-    font-family: 'Acme';
-    src: url(../assets/fonts/Acme-Regular.ttf);
+  font-family: 'Acme';
+  src: url(../assets/fonts/Acme-Regular.ttf);
 }
 
 @font-face {
-    font-family: 'QuicksandBold';
-    src: url(../assets/fonts/Quicksand-Bold.ttf);
+  font-family: 'QuicksandBold';
+  src: url(../assets/fonts/Quicksand-Bold.ttf);
 }
 
 @font-face {
-    font-family: 'QuicksandRegular';
-    src: url(../assets/fonts/Quicksand-Regular.ttf);
+  font-family: 'QuicksandRegular';
+  src: url(../assets/fonts/Quicksand-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'PromptSemiBold';
+  src: url(../assets/fonts/Prompt-SemiBold.ttf);
 }
 
 :root {
-    --font-Acme: 'Acme';
-    --font-Quicksand-Regular: 'QuicksandRegular';
-    --font-Quicksand-Bold: 'QuicksandBold';
+  --font-Acme: 'Acme';
+  --font-Quicksand-Regular: 'QuicksandRegular';
+  --font-Quicksand-Bold: 'QuicksandBold';
+  --font-Prompt-SemiBold: 'PromptSemiBold';
 }
