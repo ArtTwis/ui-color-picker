@@ -9,11 +9,11 @@ import Gradients from './Gradients/Gradients';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-    <Router>
-        <Routes>
-            <Route path='/' exact element={<Home />} />
-            <Route path='/contrast' element={<ContrastChecker />} />
-            <Route path='/gradients' element={<Gradients />} />
-        </Routes>
-    </Router>
+  <Router basename='/'>
+    <Routes>
+      <Route path='/' exact element={<Home />} />
+      <Route path='/contrast' element={<ContrastChecker />} />
+      <Route path='/gradients' element={<Gradients />} />
+    </Routes>
+  </Router>
 );
