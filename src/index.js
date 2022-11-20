@@ -9,7 +9,7 @@ import Gradients from './Gradients/Gradients';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <Router>
+  <Router basename='/ui-color-picker'>
     <Routes>
       <Route path='/' exact element={<Home />} />
       <Route path='/contrast' element={<ContrastChecker />} />
