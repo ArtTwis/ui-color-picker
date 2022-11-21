@@ -1,0 +1,43 @@
+header {
+  padding: 4rem 0rem 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-family: var(--font-Quicksand-Bold);
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+header h3 {
+  font-family: var(--font-Quicksand-Regular);
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.gradient-direction-pt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.gradient-direction-dv {
+  height: 35px;
+  width: 35px;
+  outline: 0;
+  margin: 0px 0.5rem;
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
