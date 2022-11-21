@@ -9,3 +9,13 @@ export const getContrastRatio = (backgroundColor, foregroundColor) => {
       console.log(error);
     });
 };
+
+export const getSimilarColorShades = (hexCode) => {
+  return fetch(`https://www.thecolorapi.com/scheme?hex=${hexCode}&format=json`)
+    .then((response) => {
+      return response.json();
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+};
