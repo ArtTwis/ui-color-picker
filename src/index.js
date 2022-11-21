@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router basename='/ui-color-picker'>
     <Routes>
-      <Route path='/' exact element={<Home />} />
+      <Route path='/ui-color-picker' exact element={<Home />} />
       <Route path='/contrast' element={<ContrastChecker />} />
       <Route path='/gradients' element={<Gradients />} />
     </Routes>
